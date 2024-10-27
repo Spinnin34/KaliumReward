@@ -21,26 +21,21 @@ public final class KaliumRewards extends JavaPlugin {
     public void onEnable() {
         instance = this;
 
-        // Configuración inicial
-        saveDefaultConfig(); // Guarda la configuración por defecto
+        saveDefaultConfig();
 
         setupConfig();
         database = Database.getInstance();
         database.connect(getDataFolder() + "/database.db");
 
-        // Inicializa el UserHandler y el RewardService
         userHandler = new UserHandler(database);
         rewardService = new RewardService(getConfig());
 
-        // Registra el comando y su TabCompleter
         getCommand("recompensa").setExecutor(new RewardCommand(userHandler, rewardService));
         getCommand("recompensa").setTabCompleter(new RewardTabCompleter());
 
-        // Inicia la tarea de auto guardado
         AutoSaveTask autoSaveTask = new AutoSaveTask(userHandler, this);
         autoSaveTask.startTask();
 
-        // Mensaje de activación del plugin
         Bukkit.getLogger().info("KaliumRewards ha sido activado.");
     }
 
