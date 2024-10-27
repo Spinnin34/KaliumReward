@@ -1,0 +1,8 @@
+name: KaliumRewards
+version: '1.0'
+main: p.kaliumRewards.KaliumRewards
+api-version: '1.19'
+authors: [ Spinnin34 ]
+commands:
+  recompensa:
+    description: Reclama recompensas diarias, semanales y mensuales

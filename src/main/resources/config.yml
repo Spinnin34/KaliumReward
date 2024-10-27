@@ -1,0 +1,57 @@
+#
+#   ██████╗██████╗ ██╗███╗  ██╗███╗  ██╗██╗███╗  ██╗
+#  ██╔════╝██╔══██╗██║████╗ ██║████╗ ██║██║████╗ ██║
+#  ╚█████╗░██████╔╝██║██╔██╗██║██╔██╗██║██║██╔██╗██║
+#   ╚═══██╗██╔═══╝ ██║██║╚████║██║╚████║██║██║╚████║
+#  ██████╔╝██║     ██║██║ ╚███║██║ ╚███║██║██║ ╚███║
+#  ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚══╝╚═╝  ╚══╝╚═╝╚═╝  ╚══╝
+#
+
+rewards:
+  diaria:
+    commands:
+      - "give %player% iron 1"
+      - "give %player% diamond 1"
+    messages:
+      - " "
+      - "§x§F§B§0§0§0§0ᴢ§x§F§B§0§9§0§2ᴇ§x§F§B§1§2§0§3s§x§F§C§1§C§0§5ᴛ§x§F§C§2§5§0§6ɪ§x§F§C§2§E§0§8ᴀ§x§F§C§3§7§0§Aɴ §x§F§D§4§1§0§Bʀ§x§F§D§4§A§0§Dᴇ§x§F§D§5§3§0§Eᴄ§x§F§D§5§C§1§0ᴏ§x§F§E§6§6§1§1ᴍ§x§F§E§6§F§1§3ᴘ§x§F§E§7§8§1§5ᴇ§x§F§E§8§1§1§6ɴ§x§F§F§8§B§1§8s§x§F§F§9§4§1§9ᴀ§x§F§F§9§D§1§Bs"
+      - " "
+      - "§x§f§b§8§6§8§6¡Has reclamado tu recompensa diaria correctamente! §x§f§b§8§6§8§6 /crates"
+      - "   §x§5§c§f§b§8§d↪ Diaria"
+      - "§a + §x§f§b§e§4§8§1 300 Monedas"
+      - "§7ᴅᴇᴠᴇʟᴏᴘᴇʀ ©ꜱᴘɪɴɴɪɴ"
+      - " "
+      - "§x§f§b§4§8§a§e¡Has reclamado tu recompensa correctamente!"
+      - " "
+
+  semanal:
+    commands:
+      - "ecobits give %player% coins 5000"
+      - "give %player% emerald 1"
+    messages:
+      - " "
+      - "§x§F§B§0§0§0§0ᴢ§x§F§B§0§9§0§2ᴇ§x§F§B§1§2§0§3s§x§F§C§1§C§0§5ᴛ§x§F§C§2§5§0§6ɪ§x§F§C§2§E§0§8ᴀ§x§F§C§3§7§0§Aɴ §x§F§D§4§1§0§Bʀ§x§F§D§4§A§0§Dᴇ§x§F§D§5§3§0§Eᴄ§x§F§D§5§C§1§0ᴏ§x§F§E§6§6§1§1ᴍ§x§F§E§6§F§1§3ᴘ§x§F§E§7§8§1§5ᴇ§x§F§E§8§1§1§6ɴ§x§F§F§8§B§1§8s§x§F§F§9§4§1§9ᴀ§x§F§F§9§D§1§Bs"
+      - " "
+      - "§x§f§b§8§6§8§6¡Has reclamado tu recompensa semanal correctamente! §x§f§b§8§6§8§6 /crates"
+      - "   §x§5§c§f§b§8§d↪ Semanal"
+      - "§a + §x§f§b§e§4§8§1 5k Monedas"
+      - "§7ᴅᴇᴠᴇʟᴏᴘᴇʀ ©ꜱᴘɪɴɴɪɴ"
+      - " "
+      - "§x§f§b§4§8§a§e¡Has reclamado tu recompensa correctamente!"
+      - " "
+
+  mensual:
+    commands:
+      - "ecobits give %player% coins 10000"
+      - "give %player% nether_star 1"
+    messages:
+      - " "
+      - "§x§F§B§0§0§0§0ᴢ§x§F§B§0§9§0§2ᴇ§x§F§B§1§2§0§3s§x§F§C§1§C§0§5ᴛ§x§F§C§2§5§0§6ɪ§x§F§C§2§E§0§8ᴀ§x§F§C§3§7§0§Aɴ §x§F§D§4§1§0§Bʀ§x§F§D§4§A§0§Dᴇ§x§F§D§5§3§0§Eᴄ§x§F§D§5§C§1§0ᴏ§x§F§E§6§6§1§1ᴍ§x§F§E§6§F§1§3ᴘ§x§F§E§7§8§1§5ᴇ§x§F§E§8§1§1§6ɴ§x§F§F§8§B§1§8s§x§F§F§9§4§1§9ᴀ§x§F§F§9§D§1§Bs"
+      - " "
+      - "§x§f§b§8§6§8§6¡Has reclamado tu recompensa mensual correctamente! §x§f§b§8§6§8§6 /crates"
+      - "   §x§5§c§f§b§8§d↪ Mensual"
+      - "§a + §x§f§b§e§4§8§1 10k Monedas"
+      - "§7ᴅᴇᴠᴇʟᴏᴘᴇʀ ©ꜱᴘɪɴɴɪɴ"
+      - " "
+      - "§x§f§b§4§8§a§e¡Has reclamado tu recompensa correctamente!"
+      - " "

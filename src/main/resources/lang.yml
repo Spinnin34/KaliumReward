@@ -1,0 +1,26 @@
+#
+#   ██████╗██████╗ ██╗███╗  ██╗███╗  ██╗██╗███╗  ██╗
+#  ██╔════╝██╔══██╗██║████╗ ██║████╗ ██║██║████╗ ██║
+#  ╚█████╗░██████╔╝██║██╔██╗██║██╔██╗██║██║██╔██╗██║
+#   ╚═══██╗██╔═══╝ ██║██║╚████║██║╚████║██║██║╚████║
+#  ██████╔╝██║     ██║██║ ╚███║██║ ╚███║██║██║ ╚███║
+#  ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚══╝╚═╝  ╚══╝╚═╝╚═╝  ╚══╝
+#
+
+messages:
+  prefix: "&#FB1700R&#FB2606e&#FC350Dc&#FC4413o&#FD531Am&#FD6220p&#FD7126e&#FE802Dn&#FE8F33s&#FF9E3Aa&#FFAD40s &f»&7 "
+  type-invalid: "Tipo de recompensa inválido. Usa diaria, semanal o mensual."
+  use: "Uso: /reward <diaria|semanal|mensual>"
+  not-perms: "&#FB0044⚠ No tienes permisos para ejecutar este comando."
+  not-player: "&#FB0044⚠ Este comando solo puede ser ejecutado por jugadores."
+  not-config: "&#FB0044⚠ No hay mensajes configurados para esta recompensa."
+  not-config-type: "&#FB0044⚠ El tipo de recompensa no está configurado correctamente."
+  remaining-time:
+    - " "
+    - " &#FB0000ᴋ&#FB0B04ᴀ&#FC1608ʟ&#FC200Cɪ&#FC2B10ᴜ&#FC3614ᴍ &#FD4118ʀ&#FD4C1Cᴇ&#FD5720ᴄ&#FD6124ᴏ&#FE6C28ᴍ&#FE772Cᴘ&#FE8230ᴇ&#FE8D34ɴ&#FF9738s&#FFA23Cᴀ&#FFAD40s"
+    - " "
+    - "§x§f§b§8§6§8§6ᴅᴇʙᴇꜱ ᴇꜱᴘᴇʀᴀʀ %time% §x§f§b§8§6§8§6ᴘᴀʀᴀ ʀᴇᴄʟᴀᴍᴀʀ ʟᴀ ʀᴇᴄᴏᴍᴘᴇɴꜱᴀ."
+    - "   §x§5§c§f§b§8§d↪ %typereward%"
+    - " "
+    - "&7By the Developer ©ꜱᴘɪɴɴɪɴ and Kalium Studio Team"
+    - " "
